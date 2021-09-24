@@ -12,6 +12,7 @@
         android:layout_height="match_parent"
         android:background="#0000FF"
         android:text="@string/button_constraint2"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView11"
         app:layout_constraintStart_toEndOf="@+id/imageView9"
@@ -22,6 +23,9 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:background="#00ff00"
+
+        android:contentDescription="@string/example"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button10"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,10 +35,10 @@
         android:id="@+id/textView11"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-
         android:background="#FF0000"
         android:gravity="center"
         android:text="@string/textview_constraint2"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toEndOf="@+id/button10" />
@@ -45,4 +49,5 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_end="150dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
